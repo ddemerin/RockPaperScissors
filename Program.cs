@@ -14,7 +14,7 @@ namespace RockPaperScissors
     Console.WriteLine("Please choose your diffculty: Easy, Normal, or Impossible.");
     var difficulty = Console.ReadLine().ToLower();
     if (difficulty != "easy" && difficulty != "normal" && difficulty != "impossible"){
-        Console.WriteLine("Those aren't difficulties. Please choose again: " 
+        Console.WriteLine("That is not a difficulty choice. Please choose again: " 
         + "Easy, Normal, or Impossible?");
         difficulty = Console.ReadLine().ToLower();
     }
